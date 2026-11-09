@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luis Bizarro Ortiz — Portafolio</title>
+  <meta name="description" content="Portafolio de Luis Bizarro Ortiz: aplicaciones web en producción, desplegadas desde GitHub en Vercel.">
+  <meta name="theme-color" content="#0C1622">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Luis Bizarro Ortiz — Portafolio">
+  <meta property="og:description" content="Aplicaciones web en producción, desplegadas desde GitHub en Vercel.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+
+  <a class="skip" href="#contenido" data-i18n="a11y.skip">Saltar al contenido</a>
+
+  <div class="paper" aria-hidden="true"></div>
+
+  <div class="sheet">
+    <span class="axis axis--l" aria-hidden="true"></span>
+    <span class="axis axis--r" aria-hidden="true"></span>
+
+    <main id="contenido">
+
+      <header class="hero">
+        <div class="hero__bar">
+          <div class="lang" role="group" aria-label="Idioma / Language">
+            <button class="lang__btn" type="button" data-lang="es" aria-pressed="true" lang="es">Español</button>
+            <button class="lang__btn" type="button" data-lang="en" aria-pressed="false" lang="en">English</button>
+          </div>
+        </div>
+
+        <div class="nameplate">
+          <h1 class="hero__name">Luis<br>Bizarro Ortiz</h1>
+
+          <div class="measure" aria-hidden="true">
+            <span class="measure__end">github</span>
+            <span class="measure__rule"></span>
+            <span class="measure__end">vercel</span>
+          </div>
+        </div>
+
+        <div class="hero__body">
+          <p class="hero__lede" data-i18n="hero.lede">Construyo aplicaciones web y las pongo a funcionar. Cada placa de esta hoja es un sitio real, desplegado desde GitHub en Vercel.</p>
+
+          <dl class="specs">
+            <div class="specs__row">
+              <dt data-i18n="specs.role">rol</dt>
+              <dd data-i18n="specs.roleValue">full-stack independiente</dd>
+            </div>
+            <div class="specs__row">
+              <dt data-i18n="specs.sites">sitios</dt>
+              <dd>03</dd>
+            </div>
+          </dl>
+        </div>
+      </header>
+
+      <section class="work" id="trabajo" aria-labelledby="work-title">
+        <div class="work__head">
+          <h2 class="work__title" id="work-title" data-i18n="work.title">Sitios en producción</h2>
+          <span class="work__rule" aria-hidden="true"></span>
+        </div>
+
+        <div class="plates">
+
+          <article class="plate plate--wide">
+            <span class="plate__no" data-i18n="plate1.no">placa 01</span>
+            <div class="plate__shot">
+              <img src="assets/proyectos/norioma-1600.webp"
+                   srcset="assets/proyectos/norioma-800.webp 800w,
+                           assets/proyectos/norioma-1600.webp 1600w"
+                   sizes="(min-width: 900px) 760px, 100vw"
+                   width="1600" height="1000"
+                   alt="Portada de Norioma, academia preuniversitaria" data-i18n-alt="plate1.alt"
+                   fetchpriority="high" decoding="async">
+            </div>
+            <div class="plate__foot">
+              <h3 class="plate__title">
+                <a href="https://web-norioma.vercel.app/index.html" target="_blank" rel="noopener">
+                  Norioma<span class="visually-hidden">, html, css, vanilla js, 2026</span><span class="visually-hidden" data-i18n="common.newTab"> (abre en una pestaña nueva)</span>
+                </a>
+              </h3>
+              <span class="plate__action" aria-hidden="true" data-i18n="common.open">Abrir sitio</span>
+            </div>
+            <p class="plate__dim" aria-hidden="true">
+              <span>2026</span>
+              <span class="plate__dim-line"></span>
+              <span>html css vanilla js</span>
+            </p>
+          </article>
+
+          <article class="plate plate--narrow">
+            <span class="plate__no" data-i18n="plate2.no">placa 02</span>
+            <div class="plate__shot">
+              <img src="assets/proyectos/atelier-senda-1600.webp"
+                   srcset="assets/proyectos/atelier-senda-800.webp 800w,
+                           assets/proyectos/atelier-senda-1600.webp 1600w"
+                   sizes="(min-width: 900px) 760px, 100vw"
+                   width="1600" height="1000"
+                   alt="Portal de acceso de Atelier Senda, sistema de gestión comercial" data-i18n-alt="plate2.alt"
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="plate__foot">
+              <h3 class="plate__title">
+                <a href="https://ropagestionluisus.vercel.app/" target="_blank" rel="noopener">
+                  Atelier Senda<span class="visually-hidden">, react, vite, 2026</span><span class="visually-hidden" data-i18n="common.newTab"> (abre en una pestaña nueva)</span>
+                </a>
+              </h3>
+              <span class="plate__action" aria-hidden="true" data-i18n="common.open">Abrir sitio</span>
+            </div>
+            <p class="plate__dim" aria-hidden="true">
+              <span>2026</span>
+              <span class="plate__dim-line"></span>
+              <span>react vite</span>
+            </p>
+          </article>
+
+          <article class="plate">
+            <span class="plate__no" data-i18n="plate3.no">placa 03</span>
+            <div class="plate__shot">
+              <img src="assets/proyectos/lumbre-1600.webp"
+                   srcset="assets/proyectos/lumbre-800.webp 800w,
+                           assets/proyectos/lumbre-1600.webp 1600w"
+                   sizes="(min-width: 900px) 760px, 100vw"
+                   width="1600" height="800"
+                   alt="Portada de Lumbre, café de tueste propio en Barranco" data-i18n-alt="plate3.alt"
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="plate__foot">
+              <h3 class="plate__title">
+                <a href="https://cafe-web-iota-ashen.vercel.app/" target="_blank" rel="noopener">
+                  Lumbre<span class="visually-hidden">, react, vite, 2026</span><span class="visually-hidden" data-i18n="common.newTab"> (abre en una pestaña nueva)</span>
+                </a>
+              </h3>
+              <span class="plate__action" aria-hidden="true" data-i18n="common.open">Abrir sitio</span>
+            </div>
+            <p class="plate__dim" aria-hidden="true">
+              <span>2026</span>
+              <span class="plate__dim-line"></span>
+              <span>react vite</span>
+            </p>
+          </article>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="colophon">
+      <div class="colophon__main">
+        <h2 class="colophon__title" data-i18n="contact.title">contacto</h2>
+        <a class="colophon__cta" href="https://www.linkedin.com/in/luis-bizarro-ortiz/" target="_blank" rel="noopener">
+          <span data-i18n="contact.cta">Escríbeme por LinkedIn</span><span class="visually-hidden" data-i18n="common.newTab"> (abre en una pestaña nueva)</span>
+        </a>
+        <p class="colophon__availability" data-i18n="contact.availability">Disponible para proyectos nuevos.</p>
+      </div>
+
+      <div class="colophon__meta">
+        <dl class="specs">
+          <div class="specs__row">
+            <dt>github</dt>
+            <dd><a href="https://github.com/luisibrosgd" target="_blank" rel="noopener">@luisibrosgd<span class="visually-hidden" data-i18n="common.newTab"> (abre en una pestaña nueva)</span></a></dd>
+          </div>
+          <div class="specs__row">
+            <dt data-i18n="contact.updated">actualizado</dt>
+            <dd>2026-11</dd>
+          </div>
+        </dl>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
