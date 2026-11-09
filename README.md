@@ -95,6 +95,8 @@ index.html
 styles.css
 main.js
 vercel.json
+robots.txt
+sitemap.xml
 google57900884de3fd1c5.html   (verificación de Google Search Console)
 assets/
   favicon.svg
@@ -103,6 +105,18 @@ assets/
     atelier-senda-1600.webp · atelier-senda-800.webp
     lumbre-1600.webp · lumbre-800.webp
 ```
+
+## Verificación e indexación
+
+- `google57900884de3fd1c5.html` verifica la propiedad en Search Console.
+- `robots.txt` permite el rastreo y apunta al sitemap.
+- `sitemap.xml` declara la portada como única URL.
+
+La URL canónica aparece en dos sitios: la línea `Sitemap:` de `robots.txt` y el
+`<loc>` de `sitemap.xml`. Si cambias de dominio, actualiza esas dos líneas.
+
+En Vercel, la **Deployment Protection** debe estar desactivada para el dominio
+público; si no, Google recibe la pantalla de login y no puede verificar ni rastrear.
 
 ## Verificación rápida
 
