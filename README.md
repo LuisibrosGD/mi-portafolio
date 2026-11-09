@@ -85,7 +85,7 @@ queda en español y el selector se oculta.
 1. Sube el repo a GitHub.
 2. En Vercel: **Add New → Project**, importa el repo.
 3. Framework preset: **Other**. Build command: vacío. Output directory: vacío.
-4. Deploy. `vercel.json` ya fija `cleanUrls`, caché larga para `/assets` y cabeceras
+4. Deploy. `vercel.json` ya fija caché larga para `/assets` y cabeceras
    de seguridad básicas.
 
 ## Estructura
@@ -95,6 +95,7 @@ index.html
 styles.css
 main.js
 vercel.json
+google57900884de3fd1c5.html   (verificación de Google Search Console)
 assets/
   favicon.svg
   proyectos/
